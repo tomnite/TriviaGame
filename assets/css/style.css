@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/sw-background.jpg");
+  background-size: cover;
+  font-family: "Russo One", sans-serif;
+}
+
+img {
+  max-height: 250px;
+  width: auto;
+}
+
+p {
+  margin: 10px;
+  font-weight: bold;
+  color: red;
+  font-size: 30px;
+}
+
+h2,
+h4 {
+  margin: 30px;
+  font-weight: bold;
+}
+
+.answerchoice {
+  border: 2px solid #403fd3;
+  border-radius: 5%;
+  width: 35%;
+  color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: white;
+}
+
+#answer {
+  text-align: center;
+}
+
+#question {
+  text-align: center;
+  font-weight: bold;
+}
+
+#reset {
+  visibility: visible;
+}
+
+.panel-heading {
+  background-color: black;
+}
+
+.panel-title {
+  float: right;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 55px;
+  background-color: black;
+}
+
+.wrapper {
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid #403fd3;
+  height: 700px;
+  width: 60%;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  bottom: -100px;
+}
